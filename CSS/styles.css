@@ -1,0 +1,145 @@
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 6rem;
+  font-family: 'Sacramento', cursive;
+  margin: 0 auto 0 auto;
+  color: #F5C6AA;
+}
+
+h2 {
+  font-family: 'Acme', sans-serif;
+  color: #FCD8D4;
+  font-size: 2rem;
+}
+
+/*Architectue graduate and junior web developer*/
+.h2-1 {
+  font-family: 'Nanum Gothic', sans-serif;
+  color: #F5C6AA;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Acme', sans-serif;
+  color: #F8E2CF;
+  font-size: 1.5rem;
+}
+
+hr {
+  width: 15%;
+  border: dotted #EAF6F6 thick;
+  border-bottom: none;
+  margin: 50px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+/*Top container*/
+.topcontainer {
+  background-color: #FDF6F0;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.profile {
+  width: 50%;
+  margin: auto;
+}
+
+/*middle container*/
+.middle-container {
+  margin: 30px 0 30px;
+}
+
+.skill-row {
+  margin: 100px auto;
+  width: 50%;
+}
+
+.h3-1 {
+  text-align: left;
+}
+
+.paragraph1 {
+  text-align: justify;
+}
+
+.contact-me {
+  padding-bottom: 50px;
+}
+
+/*bottom container*/
+.bottom-container {
+  background-color: #FCD8D4;
+  padding: 30px 0 20px;
+}
+
+.footer-image {
+  width: 3%;
+  margin: 10px 20px;
+}
+
+.footer-image:hover {
+  transform: scale(1.5);
+}
+
+.copy-right {
+  color: #FDF6F0;
+  font-size: 0.80rem;
+}
+
+.btn {
+  border-radius: 8px;
+  font-family: 'Nanum Gothic', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #F5C6AA;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top: 20px;
+  position: relative;
+  top: 25px;
+}
+
+.btn:hover {
+  background: #F8E2CF;
+  text-decoration: none;
+}
+
+/*images*/
+.top-cloud {
+  position: absolute;
+  top: 10%;
+  right: 20%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 20%;
+  top: 40%;
+}
+
+.sunrise-attribute {
+  display: block;
+  font-size: 0.5rem;
+}
+
+.languages-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.webdev-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
